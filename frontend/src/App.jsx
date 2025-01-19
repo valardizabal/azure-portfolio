@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import {Accordion, AccordionItem} from "@heroui/react";
@@ -6,9 +6,31 @@ import {Card, CardHeader, CardBody, Image} from "@heroui/react";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   const defaultContent =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
+  const [count, setCount] = useState(0);
+  const hasFetched = useRef(false);
+
+  useEffect(() => {
+    if (hasFetched.current) return;
+    hasFetched.current = true;
+
+    const fetchCount = async () => {
+      try {
+        const response = await fetch('http://localhost:7071/api/GetCount');
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+        setCount(data.count); // Assuming the API returns an object with a 'count' property
+      } catch (error) {
+        console.error('Error fetching count:', error);
+      }
+    };
+
+    fetchCount();
+  }, []);
 
   return (
     <>
@@ -25,9 +47,11 @@ function App() {
       Hello world!
       </h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <p> {count !== 0 ? (
+        <p>Count: {count}</p>
+      ) : (
+        <p>Loading...</p> // Display loading message while fetching
+      )}</p>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
