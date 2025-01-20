@@ -44,7 +44,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <h1 className="text-3xl font-bold underline">
-      Hello world!
+      Hello Azure!
       </h1>
       <div className="card">
         <p> {count !== 0 ? (
@@ -52,13 +52,8 @@ function App() {
       ) : (
         <p>Loading...</p> // Display loading message while fetching
       )}</p>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
 
       <Accordion>
       <AccordionItem key="1" aria-label="Accordion 1" title="Accordion 1">
