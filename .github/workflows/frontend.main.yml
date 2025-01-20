@@ -22,9 +22,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./frontend
 
       - name: Build project
         run: npm run build
+        working-directory: ./frontend
         
       - name: Login to Azure
         uses: azure/login@v1
@@ -35,7 +37,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }} --auth-mode login --source ./dist --destination \$web --overwrite
+            az storage blob upload-batch --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }} --auth-mode login --source ./frontend/dist --destination \$web --overwrite
     
       - name: Purge CDN endpoint
         uses: azure/CLI@v1
