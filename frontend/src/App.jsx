@@ -18,7 +18,7 @@ function App() {
 
     const fetchCount = async () => {
       try {
-        const response = await fetch('http://localhost:7071/api/GetCount');
+        const response = await fetch('https://getcount.azurewebsites.net/api/GetCount?');
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
         }
