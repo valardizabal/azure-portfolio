@@ -38,12 +38,6 @@ jobs:
         with:
           inlineScript: |
             az storage blob upload-batch --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }} --auth-mode key --source ./frontend/dist --destination \$web --overwrite
-    
-      - name: Purge CDN endpoint
-        uses: azure/CLI@v1
-        with:
-          inlineScript: |
-             az cdn endpoint purge --content-paths  "/*" --profile-name "azureportfolio1" --name "val-azure-portfolio" --resource-group "azureportfolio-rg"
    
     # Azure logout
       - name: logout
