@@ -10,6 +10,7 @@ import {
 import Header from "./sections/Header"
 import Profile from "./sections/Profile"
 import TechSkills from "./sections/TechSkills"
+import Connect from "./sections/Connect"
 
 // import useFunctions from "./hooks/useFunctions";
 
@@ -28,6 +29,7 @@ function App() {
             <Header/>
             <Profile/>
             <TechSkills/>
+            <Connect/>
             
           </ScrollShadow>
 

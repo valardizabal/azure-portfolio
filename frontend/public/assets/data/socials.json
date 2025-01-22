@@ -1,12 +1,12 @@
 [
     {
-      "title": "GitHub",
-      "icon": "https://cdn.example.com/projects/portfolio.png",
+      "title": "@valardizabal",
+      "icon": "github",
       "link": "https://github.com/username/portfolio"
     },
     {
-      "title": "LinkedIn",
-      "icon": "https://cdn.example.com/projects/portfolio.png",
+      "title": "@ver.syne",
+      "icon": "discord",
       "link": "https://github.com/username/portfolio"
     }
 ]

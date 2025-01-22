@@ -41,7 +41,7 @@ const Profile = () => {
               </div>
 
               <Button
-                className="mt-6 font-semibold"
+                className="mt-6 font-semibold text-xs uppercase"
                 size="sm"
                 color="default"
                 variant="ghost"
