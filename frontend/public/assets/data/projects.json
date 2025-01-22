@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Portfolio Website",
+      "image": "https://cdn.example.com/projects/portfolio.png",
+      "year": 2023,
+      "tags": ["React", "Next.js", "Tailwind CSS"],
+      "repoURL": "https://github.com/username/portfolio",
+      "processURL": "https://blog.example.com/portfolio-process",
+      "videoURL": "https://youtu.be/portfolio-demo",
+      "description": "A personal portfolio website to showcase my projects, skills, and experience."
+    },
+    {
+      "title": "E-commerce App",
+      "image": "https://cdn.example.com/projects/ecommerce.png",
+      "year": 2022,
+      "tags": ["React", "Redux", "Node.js"],
+      "repoURL": "https://github.com/username/ecommerce",
+      "processURL": "https://blog.example.com/ecommerce-process",
+      "videoURL": "https://youtu.be/ecommerce-demo",
+      "description": "A full-stack e-commerce application with user authentication and payment integration."
+    }
+]
+  

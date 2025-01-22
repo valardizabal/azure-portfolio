@@ -1,0 +1,12 @@
+[
+    {
+      "title": "GitHub",
+      "icon": "https://cdn.example.com/projects/portfolio.png",
+      "link": "https://github.com/username/portfolio"
+    },
+    {
+      "title": "LinkedIn",
+      "icon": "https://cdn.example.com/projects/portfolio.png",
+      "link": "https://github.com/username/portfolio"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+      "name": "React",
+      "logo": "/assets/logos/react.svg"
+    },
+    {
+      "name": "Tailwind CSS",
+      "logo": "/assets/logos/tailwindcss.svg"
+    }
+  ]
+  

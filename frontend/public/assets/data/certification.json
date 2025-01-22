@@ -1,0 +1,13 @@
+[
+    {
+      "title": "JavaScript Developer Certification",
+      "certificateImg": "https://cdn.example.com/certificates/js-cert.png",
+      "tags": ["JavaScript", "Frontend Development"]
+    },
+    {
+      "title": "Cloud Practitioner",
+      "certificateImg": "https://cdn.example.com/certificates/cloud-cert.png",
+      "tags": ["Cloud Computing", "AWS"]
+    }
+  ]
+  
