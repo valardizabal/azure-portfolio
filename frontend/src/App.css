@@ -12,10 +12,6 @@
   }
 }
 
-:root {
-  --gradient-border: linear-gradient(to bottom right, purple, pink); 
-}
-
 .bg-grid {
   position: relative;
   background: rgba(169, 169, 169, 0.3);

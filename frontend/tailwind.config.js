@@ -13,6 +13,10 @@ export default {
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
       },
+      colors: {
+        darkCard: "#18181b",
+        dark: "#00000"
+      }
     },
   },
   darkMode: "class",

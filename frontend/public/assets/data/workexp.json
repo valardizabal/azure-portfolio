@@ -3,23 +3,29 @@
       "company": "Tech Solutions Inc.",
       "role": "Frontend Developer",
       "years": "2021 - Present",
-      "description": "Developed and maintained scalable frontend applications.",
+      "logo": "accenture",
+      "image": "/assets/img/1.png",
+      "description": "Developed and maintained scalable frontend applications. Developed and maintained scalable frontend applications. Developed and maintained scalable frontend applications.",
       "tasks": [
         "Built reusable components using React and Tailwind CSS.",
         "Collaborated with backend teams to integrate APIs.",
         "Optimized performance for web applications."
-      ]
+      ],
+      "tags": ["Microsoft Azure", "Azure Sentinel"]
     },
     {
       "company": "Creative Studio",
       "role": "UI/UX Designer",
       "years": "2019 - 2021",
+      "image": "/assets/img/aiuto.png",
+      "icon" : "globe",
       "description": "Designed intuitive user interfaces for web and mobile applications.",
       "tasks": [
         "Conducted user research to understand user needs.",
         "Created wireframes and prototypes using Figma.",
         "Worked closely with developers to implement designs."
-      ]
+      ],
+      "tags": ["React.js"]
     }
   ]
   

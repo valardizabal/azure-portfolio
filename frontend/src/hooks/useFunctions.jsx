@@ -22,7 +22,7 @@ export default function useFunctions() {
 
   const useGetWorkExp = () =>
     useQuery({
-      queryKey: ["socials"],
+      queryKey: ["workexp"],
       queryFn: functions.getWorkExp,
     });
 

@@ -18,7 +18,15 @@ const SocialsGroup = ({ className, title, icon, link }) => {
             alt={`${name} logo`}
           />
         </div>
-        <Link isBlock isExternal showAnchorIcon href={link} size="sm" color="danger" className="text-pink-500 dark:text-white">
+        <Link
+          isBlock
+          isExternal
+          showAnchorIcon
+          href={link}
+          size="sm"
+          color="danger"
+          className="text-pink-500 dark:text-white"
+        >
           {title}
         </Link>
       </div>
