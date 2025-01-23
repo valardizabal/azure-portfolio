@@ -15,7 +15,7 @@ export default {
       },
       colors: {
         darkCard: "#18181b",
-        dark: "#00000"
+        darkColor: "#000000"
       }
     },
   },

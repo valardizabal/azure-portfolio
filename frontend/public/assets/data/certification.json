@@ -1,12 +1,14 @@
 [
     {
       "title": "JavaScript Developer Certification",
-      "certificateImg": "https://cdn.example.com/certificates/js-cert.png",
+      "year": "2024",
+      "certificateImg": "/assets/img/1.png",
       "tags": ["JavaScript", "Frontend Development"]
     },
     {
       "title": "Cloud Practitioner",
-      "certificateImg": "https://cdn.example.com/certificates/cloud-cert.png",
+      "year": "2024",
+      "certificateImg": "/assets/img/aiuto.png",
       "tags": ["Cloud Computing", "AWS"]
     }
   ]

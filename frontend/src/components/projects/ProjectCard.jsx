@@ -6,7 +6,7 @@ const ProjectCard = ({ data }) => {
   return (
     <>
       {/* card */}
-      <div className="group relative overflow-hidden rounded-xl border transition-all duration-200 ease-in-out bg-white dark:bg-background transition-all duration-200 ease-in-out hover:border-default-400 hover:bg-default/5 dark:border-default">
+      <div className="group relative overflow-hidden rounded-xl border transition-all duration-200 ease-in-out bg-white dark:bg-darkColor transition-all duration-200 ease-in-out hover:border-default-400 hover:bg-default/5 dark:border-default">
         {/* body */}
         <div className="grid grid-cols-12">
           {/* image */}

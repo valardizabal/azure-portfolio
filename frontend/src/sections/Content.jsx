@@ -2,6 +2,7 @@ import { ScrollShadow, Tab, Tabs, Card, CardBody } from "@heroui/react";
 
 import Projects from "./Projects.jsx";
 import WorkExp from "./WorkExp.jsx";
+import Certifications from "./Certifications.jsx";
 
 const Content = () => {
   return (
@@ -36,8 +37,7 @@ const Content = () => {
           <Tab key="certifications" title="Certifications">
             <TabContent>
               <CardBody>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                <Certifications/>
               </CardBody>
             </TabContent>
           </Tab>

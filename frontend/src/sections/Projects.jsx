@@ -8,7 +8,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="sticky top-0 z-20 flex w-full justify-end p-2">
+      <div className="top-0 z-[20] flex w-full justify-end p-2">
         <Button
           isDisabled
           size="sm"

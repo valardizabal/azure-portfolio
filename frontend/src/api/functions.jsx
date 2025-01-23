@@ -10,7 +10,7 @@ export const functions = {
   },
 
   getCertifications: async () => {
-    const response = await fetch("/assets/data/certifications.json");
+    const response = await fetch("/assets/data/certification.json");
     if (!response.ok) {
       throw new Error(
         `Failed to fetch certifications. Status: ${response.status}`

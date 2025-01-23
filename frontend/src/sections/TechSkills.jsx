@@ -10,7 +10,7 @@ import {
 } from "@heroui/react";
 
 import Marquee from "react-fast-marquee";
-import TechSkillsGroup from "../components/techskills/TechSkillsGroup";
+import TechskillsGroup from "../components/techskills/TechskillsGroup";
 import useFunctions from "../hooks/useFunctions";
 
 import { Maximize2 } from "lucide-react";
@@ -42,7 +42,7 @@ const TechSkills = () => {
         <div className="h-max rounded-xl p-[3px]">
           <Marquee>
             {data?.map((technology) => (
-              <TechSkillsGroup
+              <TechskillsGroup
                 className="mx-1"
                 name={technology.name}
                 logo={technology.logo}
@@ -73,7 +73,7 @@ const TechSkills = () => {
 
                 <div className="flex flex-row">
                   {data?.map((technology) => (
-                    <TechSkillsGroup
+                    <TechskillsGroup
                       className="mx-1"
                       name={technology.name}
                       logo={technology.logo}

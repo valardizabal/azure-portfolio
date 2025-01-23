@@ -12,6 +12,10 @@
   }
 }
 
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
 .bg-grid {
   position: relative;
   background: rgba(169, 169, 169, 0.3);
