@@ -4,7 +4,7 @@ import useFunctions from "../hooks/useFunctions";
 
 const WorkExp = () => {
   const { useGetWorkExp } = useFunctions();
-  const { data, isLoading, error } = useGetWorkExp();
+  const { data } = useGetWorkExp();
 
   return (
     <>

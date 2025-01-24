@@ -5,15 +5,15 @@ import useFunctions from "../hooks/useFunctions";
 
 const Connect = () => {
   const { useGetSocials } = useFunctions();
-  const { data, isLoading, error } = useGetSocials();
+  const { data } = useGetSocials();
 
   return (
     <>
-      <Card className="relative flex flex-column items-center space-y-3 rounded-xl p-4 border-none">
+      <Card className="relative flex flex-column items-center justify-center space-y-3 rounded-xl p-4 border-none 2xl:h-[31.5vh]">
         <div className="me-auto">
           <h1 className="font-semibold text-lg">{"Let's work together! 🤝"}</h1>
         </div>
-        <div className="flex flex-row">
+        <div className="grid lg:grid-cols-2 w-full">
           {data?.map((social) => (
             <SocialsGroup
               className="mx-6"

@@ -5,7 +5,7 @@ import useFunctions from "../hooks/useFunctions";
 
 const Certifications = () => {
     const { useGetCertifications } = useFunctions();
-  const { data, isLoading, error } = useGetCertifications();
+  const { data } = useGetCertifications();
 
   return (
     <>

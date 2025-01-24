@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
+  /* @font-face {
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
     src: url('./assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype'),
-  }
+  } */
 }
 
-body {
+/* body {
   font-family: 'Nunito', sans-serif;
-}
+} */
 
 .bg-grid {
   position: relative;

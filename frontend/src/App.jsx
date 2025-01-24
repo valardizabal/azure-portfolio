@@ -1,10 +1,4 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Image,
-  ScrollShadow,
-} from "@heroui/react";
+import { ScrollShadow } from "@heroui/react";
 
 import Header from "./sections/Header"
 import Profile from "./sections/Profile"

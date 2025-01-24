@@ -17,7 +17,7 @@ import { Maximize2 } from "lucide-react";
 
 const TechSkills = () => {
   const { useGetTechnologies } = useFunctions();
-  const { data, isLoading, error } = useGetTechnologies();
+  const { data } = useGetTechnologies();
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -32,7 +32,7 @@ const TechSkills = () => {
               isIconOnly
               radius="full"
               size="sm"
-              className="relative z-10 inline-flex items-center text-white justify-center rounded-full bg-purple-400 border-0 p-2 hover:bg-purplw-400 dark:hover:bg-purple-400"
+              className="relative z-10 inline-flex items-center text-white justify-center rounded-full bg-purple-400 border-0 p-2 hover:bg-purple-400 dark:hover:bg-purple-400"
               onPress={onOpen}
             >
               <Maximize2 />
@@ -43,7 +43,7 @@ const TechSkills = () => {
           <Marquee>
             {data?.map((technology) => (
               <TechskillsGroup
-                className="mx-1"
+                cname="mx-1"
                 name={technology.name}
                 logo={technology.logo}
                 key={technology.name}
@@ -71,10 +71,10 @@ const TechSkills = () => {
                   </p>
                 </div>
 
-                <div className="flex flex-row">
+                <div className="max-w-full max-h-64 w-fit overflow-y-auto grid grid-cols-4 gap-4">
                   {data?.map((technology) => (
                     <TechskillsGroup
-                      className="mx-1"
+                      cname="mx-1"
                       name={technology.name}
                       logo={technology.logo}
                       key={technology.name}

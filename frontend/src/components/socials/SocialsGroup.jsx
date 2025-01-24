@@ -1,4 +1,5 @@
 import { cn, Link, Image } from "@heroui/react";
+import { Linkedin } from 'lucide-react';
 
 // eslint-disable-next-line react/prop-types
 const SocialsGroup = ({ className, title, icon, link }) => {
@@ -6,17 +7,17 @@ const SocialsGroup = ({ className, title, icon, link }) => {
     <>
       <div
         className={cn(
-          "flex h-full items-center gap-2 rounded-lg bg-transparent px-4 text-sm font-bold dark:border-default dark:bg-transparent 2xl:text-base",
+          "flex h-full items-center gap-2 rounded-lg bg-transparent text-sm font-bold dark:border-default dark:bg-transparent 2xl:text-base",
           className
         )}
       >
-        <div className="relative z-10 inline-flex items-center text-white justify-center rounded-full bg-transparent border-1 dark:border-default dark:bg-transparent p-2">
-          <Image
-            width={16}
+        <div className="z-10 items-center text-white justify-center rounded-full bg-transparent dark:bg-transparent">
+          {icon ? <Image
+            width={15}
             height={16}
             src={`https://cdn.simpleicons.org/${icon}/000000/ec4899`}
             alt={`${name} logo`}
-          />
+          /> : <div className="text-darkCard dark:text-pink-500"><Linkedin size={16} strokeWidth={1.75} /></div>}
         </div>
         <Link
           isBlock

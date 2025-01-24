@@ -1,22 +1,60 @@
 [
     {
-      "title": "Portfolio Website",
-      "image": "/assets/img/1.png",
-      "year": 2023,
-      "tags": ["React", "Next.js", "Tailwind CSS"],
-      "repoURL": "https://github.com/username/portfolio",
-      "processURL": "https://blog.example.com/portfolio-process",
-      "description": "A personal portfolio website to showcase my projects, skills, and experience."
+      "title": "SkySentiment: SEA Airline Review Insights",
+      "image": "/assets/img/skysentiment.png",
+      "year": 2024,
+      "tags": ["Python", "Microsoft Power BI", "pandas", "nltk", "matplotlib", "pyfiglet", "vaderSentiment", "Web Scraping", "Data Analysis", "Sentiment Analysis", "Data Visualization"],
+      "repoURL": "https://github.com/valardizabal/skysentiment",
+      "videoURL": "https://www.youtube.com/watch?v=SXduPGu4eO0",
+      "description": "A Python-based program with a Power BI dashboard that provides insights into customer satisfaction with the top 10 Southeast Asian (SEA) airlines using sentiment analysis of SkyTrax reviews. It analyzes review data to gauge public sentiment and presents the results through clear visual reports. The insights can help you decide which airline to book for your next trip, ensuring a better travel experience."
     },
     {
-      "title": "E-commerce App",
-      "image": "/assets/img/aiuto.png",
-      "year": 2022,
-      "tags": ["React", "Redux", "Node.js"],
+      "title": "TMGMON: Early Detection and Monitoring Dashboard",
+      "image": "/assets/img/tmgmon.png",
+      "year": 2023,
+      "tags": ["React.js", "Google MUI", "PL/SQL", "Oracle SQL", "Spring Boot", "Toad", "Apache Tomcat", "Atlassian BitBucket", "Atlassian Confluence", "Atlassian Jira", "Figma", "Git"],
+      "description": "A React.js and Spring Boot-based dashboard to replace manual email notifications for early detection and monitoring. This new solution enhances scalability, performance, and process efficiency, enabling more effective alarm and alert management."
+    },
+    {
+      "title": "My Azure Portfolio",
+      "image": "/assets/img/azureportfolio.png",
+      "year": 2025,
+      "tags": ["React.js", "HeroUI", "JavaScript", "Azure Functions", "Azure Storage Accounts", "Azure CDN", "Microsoft Azure", "Tailwind CSS", "GitHub", "Git", "GitHub Actions", "Web Development", "Cloud Engineering"],
       "repoURL": "https://github.com/username/ecommerce",
-      "processURL": "https://blog.example.com/ecommerce-process",
-      "videoURL": "https://youtu.be/ecommerce-demo",
-      "description": "A full-stack e-commerce application with user authentication and payment integration."
+      "description": "An Azure Portfolio/Resume inspired by an ACG project, showcasing my skills in web development and cloud engineering. Built with React.js for the frontend, Azure Functions for the backend, and hosted on Microsoft Azure."
+    },
+    {
+      "title": "Sew-Cut: A Mobile Tailoring Management System with a Body Measurement Tool for Balala’s Dressmaking and Tailoring Shop",
+      "image": "/assets/img/catalog.png",
+      "year": 2023,
+      "tags": ["React.js", "Node.js", "Bootstrap", "MySQL", "Apache", "TensorFlow", "Git", "GitLab", "Google Workspace","Figma", "JavaScript", "Deep Learning"],
+      "description": "Published in the Journal of Global Business Online Journal (ISSN: 2350-7179) last August 2023. Sew-Cut is a mobile tailoring management system developed for Balala's Tailoring Shop. It automates manual processes, streamlining order tracking and customer measurement recording. The system incorporates 2D measurement guidance with animation and speech for customer ease, assisting in online order measurements.",
+      "paperURL": "https://atiftap.org/ejournals-v12i1"
+    },
+    {
+      "title": "Air Quality Index and Air Pollutant Concentration Prediction Based on Machine Learning Algorithms",
+      "image": "/assets/img/aqi.png",
+      "year": 2022,
+      "tags": ["Python", "Google Colab", "Data Mining", "Machine Learning", "Google Workspace", "numpy", "pandas", "seaborn", "matplotlib", "Time Series Forecasting", "SARIMAX"],
+      "description": "This project aims to determine the optimal machine learning model for predicting air quality index (AQI) and air pollutant concentrations. It also focuses on using time series forecasting techniques to analyze how AQI can change over time. Additionally, the project involves the creation and implementation of a web application to test the predictive model and a recommender algorithm for suggesting air quality improvement strategies.",
+      "processURL": "https://colab.research.google.com/drive/1V_VVwcqhm6_5hyLUQXW6HRC_KEL2LcJD?usp=sharing",
+      "paperURL": "https://drive.google.com/file/d/1XjlkaHclbtW5PV73iZ1xOOTVxNsqWtdK/view?usp=sharing"
+    },
+    {
+      "title": "Cordillera Administrative Region Forest 2030: Predictive Modeling of Future Forest Cover Change Patterns",
+      "image": "/assets/img/cordillera.png",
+      "year": 2022,
+      "tags": ["Python", "Google Colab", "Data Mining", "Machine Learning", "Google Workspace"],
+      "description": "This project aims to analyze future forest cover change patterns in the Cordillera Administrative Region (CAR) using machine learning algorithms. The SARIMAX model (Time Series Forecasting) predicts an increase in tree cover loss of up to 7.387 kha by 2030, highlighting the importance of raising public awareness about the region's forest condition.",
+      "paperURL": "https://drive.google.com/file/d/1NP-fw20npWKA2Lpa1BwIC7Wx6iSFS0ei/view?usp=sharing"
+    },
+    {
+      "title": "Project Phoenix Unified Portal UI",
+      "image": "/assets/img/phoenix.png",
+      "year": 2024,
+      "tags": ["Figma", "UI/UX Design"],
+      "description": "This is a user interface design for Project Phoenix's unified portal, serving as a one-stop-shop for ID lifecycle management, TAP tool access, B2B Access Packages, and others.",
+      "processURL": "https://drive.google.com/file/d/1eB0GxdYCSXyxa8tC_ZTZWeGv9cZ1MmVF/view?usp=sharing"
     }
 ]
   

@@ -1,15 +1,115 @@
 [
     {
-      "title": "JavaScript Developer Certification",
+      "title": "Microsoft Certified: Power BI Data Analyst Associate",
       "year": "2024",
-      "certificateImg": "/assets/img/1.png",
-      "tags": ["JavaScript", "Frontend Development"]
+      "certificateImg": "/assets/img/powerbi.png",
+      "link": "https://learn.microsoft.com/api/credentials/share/en-us/LardizabalVenisceArvie09/652D1FB74F237880?sharingId=857D358003089FAE",
+      "credId": "652D1FB74F237880"
     },
     {
-      "title": "Cloud Practitioner",
+      "title": "Microsoft Certified: Security Operations Analyst Associate",
       "year": "2024",
-      "certificateImg": "/assets/img/aiuto.png",
-      "tags": ["Cloud Computing", "AWS"]
+      "certificateImg": "/assets/img/soc.png",
+      "link": "https://learn.microsoft.com/api/credentials/share/en-us/LardizabalVenisceArvie09/4CF68A37EB4BAE60?sharingId=857D358003089FAE",
+      "credId": "4CF68A37EB4BAE60"
+    },
+    {
+      "title": "Microsoft Certified: Azure Fundamentals",
+      "year": "2024",
+      "certificateImg": "/assets/img/azuref.png",
+      "link": "https://learn.microsoft.com/api/credentials/share/en-us/LardizabalVenisceArvie09/E62165628B99E185?sharingId=857D358003089FAE",
+      "credId": "E62165628B99E185"
+    },
+    {
+      "title": "Microsoft Certified: Security Compliance and Identity Fundamentals",
+      "year": "2024",
+      "certificateImg": "/assets/img/compliance.png",
+      "link": "https://learn.microsoft.com/api/credentials/share/en-us/LardizabalVenisceArvie09/DCF64C71D7E54804?sharingId=857D358003089FAE",
+      "credId": "DCF64C71D7E54804"
+    },
+    {
+      "title": "CS50P",
+      "year": "2024",
+      "certificateImg": "/assets/img/CS50P certificate.png",
+      "link": "https://certificates.cs50.io/3e73c3db-a321-47a6-9de5-0e0a84212a52",
+      "credId": ""
+    },
+    {
+      "title": "Fortinet Certified Associate in Cybersecurity",
+      "year": "2024",
+      "certificateImg": "/assets/img/assoc.png",
+      "link": "",
+      "credId": "1595029814VL"
+    },
+    {
+      "title": "Fortinet Certified Fundamentals in Cybersecurity",
+      "year": "2024",
+      "certificateImg": "/assets/img/fundamentals.png",
+      "link": "",
+      "credId": "7148215476VL"
+    },
+    {
+      "title": "Google Chronicle Certified SOAR Analyst (CCSA)",
+      "year": "2023",
+      "certificateImg": "/assets/img/ccsa.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Google Chronicle SOAR Fundamentals v6 (CSFv6)",
+      "year": "2023",
+      "certificateImg": "/assets/img/soar.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Google Chronicle Certified SOAR Developer (CCSD)",
+      "year": "2023",
+      "certificateImg": "/assets/img/ccsd.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Google Chronicle SIEM Fundamentals",
+      "year": "2023",
+      "certificateImg": "/assets/img/siem.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Qualys Endpoint Detection and Response (EDR)",
+      "year": "2023",
+      "certificateImg": "/assets/img/edr.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Qualys PCI Compliance",
+      "year": "2023",
+      "certificateImg": "/assets/img/pci comp.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Qualys Policy Compliance",
+      "year": "2023",
+      "certificateImg": "/assets/img/pc.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Qualys Vulnerability Management Detection and Response (VMDR)",
+      "year": "2023",
+      "certificateImg": "/assets/img/vdmr.png",
+      "link": "",
+      "credId": ""
+    },
+    {
+      "title": "Qualys Web Application Scanning (WAS)",
+      "year": "2023",
+      "certificateImg": "/assets/img/was.png",
+      "link": "",
+      "credId": ""
     }
   ]
   

@@ -89,7 +89,7 @@ const ModalContentResume = ({ isOpen }) => {
               Close
             </Button>
             <Button
-              color="primary"
+              className="bg-purple-400 text-white"
               onPress={handleDownload}
               disabled={isFetching}
             >

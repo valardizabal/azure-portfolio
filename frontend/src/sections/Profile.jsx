@@ -43,7 +43,6 @@ const Profile = () => {
               <Button
                 className="mt-6 font-semibold text-xs uppercase"
                 size="sm"
-                color="default"
                 variant="ghost"
                 onPress={onOpen}
               >

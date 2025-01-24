@@ -1,11 +1,142 @@
 [
-    {
-      "name": "React",
-      "logo": "react"
-    },
-    {
-      "name": "Tailwind CSS",
-      "logo": "tailwindcss"
-    }
-  ]
-  
+  {
+    "name": "Microsoft Azure",
+    "icon": "azure"
+  },
+  {
+    "name": "Azure Sentinel",
+    "icon": "sentinel"
+  },
+  {
+    "name": "Azure Automation",
+    "icon": "automation"
+  },
+  {
+    "name": "Azure Functions",
+    "icon": "functions"
+  },
+  {
+    "name": "Microsoft Entra ID",
+    "icon": "entra"
+  },
+  {
+    "name": "PowerShell",
+    "icon": "powershell"
+  },
+  {
+    "name": "Microsoft Power BI",
+    "icon": "powerbi"
+  },
+  {
+    "name": "Microsoft 365",
+    "icon": "m365"
+  },
+  {
+    "name": "Azure Storage Accounts",
+    "icon": "storage account"
+  },
+  {
+    "name": "Java",
+    "icon": "java"
+  },
+  {
+    "name": "Python",
+    "logo": "python"
+  },
+  {
+    "name": "TensorFlow",
+    "logo": "tensorflow"
+  },
+  {
+    "name": "Node.js",
+    "logo": "nodedotjs"
+  },
+  {
+    "name": "React.js",
+    "logo": "react"
+  },
+  {
+    "name": "HTML5",
+    "logo": "html5"
+  },
+  {
+    "name": "CSS3",
+    "logo": "css"
+  },
+  {
+    "name": "Spring Boot",
+    "logo": "springboot"
+  },
+  {
+    "name": "Tailwind CSS",
+    "logo": "tailwindcss"
+  },
+  {
+    "name": "Google MUI",
+    "logo": "mui"
+  },
+  {
+    "name": "Bootstrap",
+    "logo": "bootstrap"
+  },
+  {
+    "name": "HeroUI",
+    "logo": "nextui"
+  },
+  {
+    "name": "Figma",
+    "logo": "figma"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "icon": "photoshop"
+  },
+  {
+    "name": "Canva",
+    "logo": "canva"
+  },
+  {
+    "name": "MySQL",
+    "logo": "mysql"
+  },
+  {
+    "name": "PL/SQL",
+    "icon": "pl/sql"
+  },
+  {
+    "name": "Oracle SQL",
+    "icon": "oraclesql"
+  },
+  {
+    "name": "Linux",
+    "logo": "linux"
+  },
+  {
+    "name": "Ubuntu",
+    "logo": "ubuntu"
+  },
+  {
+    "name": "Google Workspace",
+    "logo": "Google"
+  },
+  {
+    "name": "Atlassian",
+    "logo": "atlassian"
+  },
+  {
+    "name": "Apache",
+    "logo": "apache"
+  },
+  {
+    "name": "Apache Tomcat",
+    "logo": "apachetomcat"
+  },
+  {
+    "name": "Google Colab",
+    "logo": "googlecolab"
+  },
+  {
+    "name": "Jupyter",
+    "logo": "jupyter"
+  }
+]

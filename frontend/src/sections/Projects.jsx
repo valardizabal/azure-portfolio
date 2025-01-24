@@ -4,7 +4,7 @@ import useFunctions from "../hooks/useFunctions";
 
 const Projects = () => {
   const { useGetProjects } = useFunctions();
-  const { data, isLoading, error } = useGetProjects();
+  const { data } = useGetProjects();
 
   return (
     <>

@@ -6,12 +6,12 @@ const WorkExpCard = ({ data }) => {
   return (
     <>
       {/* card */}
-      <div className="group relative overflow-hidden rounded-xl border transition-all duration-200 ease-in-out bg-white dark:bg-background transition-all duration-200 ease-in-out hover:border-default-400 hover:bg-default/5 dark:border-default">
+      <div className="group relative overflow-hidden rounded-xl border transition-all duration-200 ease-in-out bg-white dark:bg-background transition-all duration-200 ease-in-out hover:border-default-400 hover:bg-default/5 dark:border-default dark:hover:bg-darkCard dark:hover:border-default-400">
         {/* body */}
         <div className="grid grid-cols-12">
           
           {/* content */}
-          <div className="col-span-12 flex h-full w-full flex-col p-6 sm:col-span-8">
+          <div className="col-span-12 flex h-full w-full flex-col p-6 sm:col-span-12">
             {/* content body */}
             <div>
               {/* content title */}
@@ -21,12 +21,12 @@ const WorkExpCard = ({ data }) => {
                   height={20}
                   src={`https://cdn.simpleicons.org/${data.logo}/a855f7/a855f7`}
                   alt={`${data.company} logo`}
-                /> : <div className="dark:text-purple-400"><Globe/></div>}
+                /> : <div className="dark:text-purple-400"><Globe size={22}/></div>}
                 <span>{data.company}</span>
                 <span>{"•"}</span>
                 <span>{data.role}</span>
               </div>
-              <p className="text-sm mb-2">{data.years}</p>
+              <p className="text-xs mb-2">{data.years}</p>
               {/* content desc*/}
               <div className="mb-4 space-y-4">
                 <ScrollShadow
@@ -43,7 +43,7 @@ const WorkExpCard = ({ data }) => {
                         key={`${task}-${index}`}
                         className="text-sm mb-1 flex items-start space-x-2"
                       >
-                        <span>✨</span>
+                        <span>-</span>
                         <p>{task}</p>
                       </li>
                     ))}
@@ -64,8 +64,7 @@ const WorkExpCard = ({ data }) => {
             {/* content footer */}
             <div className="mt-auto flex flex-wrap gap-2">{""}</div>
           </div>
-          {/* image */}
-          <div className="relative col-span-12 sm:col-span-4">
+          {/* <div className="relative col-span-12 sm:col-span-4">
             <div className="absolute inset-0 z-[15] flex ease-in-out group-hover:bg-default-500/5"></div>
             <Image
               radius={"none"}
@@ -76,7 +75,7 @@ const WorkExpCard = ({ data }) => {
                 img: "w-full sm:h-full sm:w-fit object-cover",
               }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -9,7 +9,7 @@ import ThemeSwitcher from "../components/context/ThemeSwitcher.jsx";
 
 const Header = () => {
   const { useGetCount } = useFunctions();
-  // const { data, isLoading } = useGetCount();
+  const { data, isLoading } = useGetCount();
   const time = useTime();
 
   return (
@@ -24,8 +24,8 @@ const Header = () => {
           }}
           variant="shadow"
         >
-          {/* Visitor Count: {data !== 0 ? data : isLoading}{" "} */}
-          Visitor Count: 0
+          Visitor Count: {data !== 0 ? data : isLoading}{" "}
+          {/* Visitor Count: 0 */}
         </Chip>
       </div>
       <p className="ms-2 me-2 font-bold">{time}</p>

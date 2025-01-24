@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import { Image, Button, ScrollShadow } from "@heroui/react";
-import { Github, Youtube, FileCode2 } from "lucide-react";
+import { Github, Youtube, FileCode2, FileText } from "lucide-react";
 
 const ProjectCard = ({ data }) => {
   return (
     <>
       {/* card */}
-      <div className="group relative overflow-hidden rounded-xl border transition-all duration-200 ease-in-out bg-white dark:bg-darkColor transition-all duration-200 ease-in-out hover:border-default-400 hover:bg-default/5 dark:border-default">
+      <div className="group relative overflow-hidden rounded-xl border transition-all duration-200 ease-in-out bg-white dark:bg-darkColor transition-all duration-200 ease-in-out hover:border-default-400 hover:bg-default/5 dark:border-default dark:hover:bg-darkCard dark:hover:border-default-400">
         {/* body */}
         <div className="grid grid-cols-12">
           {/* image */}
@@ -35,11 +35,13 @@ const ProjectCard = ({ data }) => {
                 <ScrollShadow
                   hideScrollBar
                   size={50}
-                  className="h-full text-xs lg:max-h-[80px] 2xl:text-base"
+                  className="h-full text-xs lg:max-h-[90px] 2xl:text-base"
                 >
-                  <p>{data.description}</p>
+                  <p className="text-sm">{data.description}</p>
                 </ScrollShadow>
-                <div className="flex flex-wrap items-center gap-1">
+                
+              </div>
+              <div className="flex flex-wrap items-center gap-1 mb-4">
                   {data.tags.map((tag, index) => (
                     <div
                       className="rounded-lg border border-default px-2 py-1"
@@ -49,7 +51,6 @@ const ProjectCard = ({ data }) => {
                     </div>
                   ))}
                 </div>
-              </div>
             </div>
             {/* content footer */}
             <div className="mt-auto flex flex-wrap gap-2">
@@ -75,7 +76,7 @@ const ProjectCard = ({ data }) => {
                     variant="flat"
                     startContent={<FileCode2 size={15} />}
                   >
-                    View Code
+                    See Process
                   </Button>
                 </a>
               ) : (
@@ -90,6 +91,19 @@ const ProjectCard = ({ data }) => {
                     startContent={<Youtube size={15} />}
                   >
                     View Video
+                  </Button>
+                </a>
+              ) : (
+                ""
+              )}
+              {data.paperURL ? (
+                <a href={data.paperURL} target="_blank">
+                  <Button
+                    size="sm"
+                    variant="flat"
+                    startContent={<FileText size={15} />}
+                  >
+                    View Paper
                   </Button>
                 </a>
               ) : (

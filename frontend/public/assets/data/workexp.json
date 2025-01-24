@@ -1,31 +1,62 @@
 [
     {
-      "company": "Tech Solutions Inc.",
-      "role": "Frontend Developer",
-      "years": "2021 - Present",
+      "company": "Accenture Inc.",
+      "role": "Azure Cloud Engineer (Associate)",
+      "years": "2023 - Present",
       "logo": "accenture",
-      "image": "/assets/img/1.png",
-      "description": "Developed and maintained scalable frontend applications. Developed and maintained scalable frontend applications. Developed and maintained scalable frontend applications.",
+      "description": "I was assigned to an internal project where we migrate Accenture's Infrastructure in China from a global to a local system. I focus on automating Identity Lifecycle Workflows for employee onboarding and offboarding, and managed guest account access.",
       "tasks": [
-        "Built reusable components using React and Tailwind CSS.",
-        "Collaborated with backend teams to integrate APIs.",
-        "Optimized performance for web applications."
+        "Developed a PowerShell script to automate the generation and distribution of the new joiners report, previously a manual task. This automation eliminated manual effort by 100%, significantly improving efficiency, freeing up valuable IT resources for other critical security initiatives.",
+        "Developed two PowerShell scripts to automate the application of InfoSec controls and exceptions for separating employees in the China tenant. This automation reduced the time required to process employee separations by 50%.", 
+        "Developed and presented technical architecture diagrams and recommendations for optimizing infrastructure solutions for Accenture China.",
+        "Implemented and maintained security best practices within the Azure environment, ensuring compliance with industry standards and regulations.",
+        "Presented two brownbag sessions to project team members and leads on Microsoft Sentinel and the SC-300 certification.",
+        "Successfully completed comprehensive CompTIA Security+ training with distinction, achieving first place in the bootcamp.",
+        "Earned 16+ certifications from diverse industries and platforms, including Microsoft, Google Chronicle, Qualys, and Fortinet."
       ],
-      "tags": ["Microsoft Azure", "Azure Sentinel"]
+      "tags": ["Microsoft Azure", "Azure Sentinel", "Microsoft Entra ID", "Azure Automation", "PowerShell", "Microsoft Privileged Access Management", "Azure Functions", "Figma"]
     },
     {
-      "company": "Creative Studio",
-      "role": "UI/UX Designer",
-      "years": "2019 - 2021",
-      "image": "/assets/img/aiuto.png",
+      "company": "Freelance",
+      "role": "Web Developer | Graphic Designer",
+      "years": "2024 - Present",
       "icon" : "globe",
-      "description": "Designed intuitive user interfaces for web and mobile applications.",
+      "description": "I am freelance Web Developer for a US Client, concurrently serving as a Graphic Designer and Layout Artist for a local general merchandise business in the Philippines.",
       "tasks": [
-        "Conducted user research to understand user needs.",
-        "Created wireframes and prototypes using Figma.",
-        "Worked closely with developers to implement designs."
+        "Developed and maintained responsive website for a clients",
+        "Created visually appealing and impactful branding materials, including logos, brochures, and social media graphics, as well as for printing.",
+        "Worked closely with other developers to implement designs."
       ],
-      "tags": ["React.js"]
+      "tags": ["HTML5", "CSS3", "Bootsrap", "JavaScript", "Adobe Photoshop", "Canva"]
+    },
+    {
+      "company": "Texas Instruments Philippines Inc.",
+      "role": "Application Developer",
+      "years": "2023",
+      "icon" : "globe",
+      "description": "I was assigned to the ATBC-CS Probe/Test Systems Applications team where I developed and implemented an dashboard using React.js and Spring Boot that replaces the reliance on emails and improving scalability, performance, and process efficiency for more effective alarm and alert management.",
+      "tasks": [
+        "Developed an early detection and monitoring dashboard, reducing reliance on email by 80% and streamlining the monitoring process.",
+        "Added data visualization of alerts over time, previously unavailable in the email-based system. This enables improved insights and decision-making by facilitating the identification and analysis of patterns, trends, and anomalies.",
+        "Designed user-centric interfaces and experiences with stakeholders, improving adaptability, scalability, and process efficiency.",
+        "Presented internship project to IT managers and developers at Texas Instruments Philippines Inc."
+      ],
+      "tags": ["React.js", "Google MUI", "PL/SQL", "Oracle SQL", "Spring Boot", "Toad", "Apache Tomcat", "Atlassian BitBucket", "Atlassian Confluence", "Atlassian Jira", "Figma", "Git"]
+    },
+    {
+      "company": "Saint Louis University",
+      "role": "Information Technology Student",
+      "years": "2019 - 2023",
+      "icon" : "globe",
+      "description": "I graduated from Saint Louis University with a Bachelor of Science in Information Technology. During my four years of study, I gained comprehensive knowledge in various areas, including software engineering, data analysis, database management, project management, UI/UX design, data structures, and more. I also developed a strong understanding of the evolving tech landscape.",
+      "tasks": [
+        "Graduated as SUMMA CUM LAUDE with a GWA of 94.",
+        "Academic Scholar of DOST-JLSS (2021 RA 7687).",
+        "Created a progressive web application that automates the manual tailoring process and helps customers in taking their measurements through guided and automated measurement.",
+        "Led a diverse team of 8 individuals in the end-to-end requirements gathering, design, development, and deployment of the application.",
+        "Mentored and trained team members in Node.js, React, and TensorFlow to enhance their technical skills and proficiency."
+      ],
+      "tags": ["Java", "React.js", "CSS3", "Git", "GitLab", "SQL", "MySQL", "JavaScript", "Python", "Figma", "WordPress", "HTML5", "Machine Learning", "Kotlin", "UI/UX Design", "Application Development"]
     }
   ]
   

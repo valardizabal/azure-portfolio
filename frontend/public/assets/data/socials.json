@@ -1,12 +1,22 @@
 [
-    {
-      "title": "@valardizabal",
-      "icon": "github",
-      "link": "https://github.com/username/portfolio"
-    },
-    {
-      "title": "@ver.syne",
-      "icon": "discord",
-      "link": "https://github.com/username/portfolio"
-    }
+  {
+    "title": "va.lardizabal@gmail.com",
+    "icon": "gmail",
+    "link": "mailto:va.lardizabal@gmail.com"
+  },
+  {
+    "title": "Venisce Arvie Lardizabal",
+    "icon": "",
+    "link": "https://www.linkedin.com/in/venisce-arvie-lardizabal/"
+  },
+  {
+    "title": "@valardizabal",
+    "icon": "github",
+    "link": "https://github.com/valardizabal"
+  },
+  {
+    "title": "@ver.mew",
+    "icon": "discord",
+    "link": "https://discordapp.com/users/492263658056056833"
+  }
 ]
