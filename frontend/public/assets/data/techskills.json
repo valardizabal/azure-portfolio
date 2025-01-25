@@ -36,6 +36,10 @@
     "icon": "storage account"
   },
   {
+    "name": "Azure DevOps",
+    "icon": "adevops"
+  },
+  {
     "name": "Java",
     "icon": "java"
   },

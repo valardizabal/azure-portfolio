@@ -14,7 +14,7 @@
         "Successfully completed comprehensive CompTIA Security+ training with distinction, achieving first place in the bootcamp.",
         "Earned 16+ certifications from diverse industries and platforms, including Microsoft, Google Chronicle, Qualys, and Fortinet."
       ],
-      "tags": ["Microsoft Azure", "Azure Sentinel", "Microsoft Entra ID", "Azure Automation", "PowerShell", "Microsoft Privileged Access Management", "Azure Functions", "Figma"]
+      "tags": ["Microsoft Azure", "Azure Sentinel", "Microsoft Entra ID", "Azure Automation", "PowerShell", "Agile", "Microsoft Privileged Access Management", "Azure Functions", "Figma"]
     },
     {
       "company": "Freelance",
@@ -23,7 +23,7 @@
       "icon" : "globe",
       "description": "I am freelance Web Developer for a US Client, concurrently serving as a Graphic Designer and Layout Artist for a local general merchandise business in the Philippines.",
       "tasks": [
-        "Developed and maintained responsive website for a clients",
+        "Developed and maintained a responsive website for a client",
         "Created visually appealing and impactful branding materials, including logos, brochures, and social media graphics, as well as for printing.",
         "Worked closely with other developers to implement designs."
       ],
