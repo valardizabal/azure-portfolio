@@ -3,6 +3,6 @@ An Azure Portfolio/Resume inspired by an ACG project, showcasing my skills in we
 
 ## Backend Architecture
 <p align="center">
-  ![architecture](backend-diagram.drawio.png)
+  <img width="100%" src="backend-diagram.drawio.png">
 </p>
 
