@@ -41,7 +41,7 @@ const WorkExpCard = ({ data }) => {
                     {data.tasks.map((task, index) => (
                       <li
                         key={`${task}-${index}`}
-                        className="text-sm mb-1 flex items-start space-x-2"
+                        className="text-xs lg:text-sm mb-1 flex items-start space-x-2"
                       >
                         <span>-</span>
                         <p>{task}</p>

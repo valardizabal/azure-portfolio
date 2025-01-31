@@ -24,6 +24,13 @@
       "description": "An Azure Portfolio/Resume inspired by an ACG project, showcasing my skills in web development and cloud engineering. Built with React.js for the frontend, Azure Functions for the backend, and hosted on Microsoft Azure."
     },
     {
+      "title": "US-based Company Website",
+      "image": "/assets/img/freelance.png",
+      "year": 2025,
+      "tags": ["HTML5", "CSS3", "JavaScript", "FalconUI", "Web Development"],
+      "description": "A company website I developed and maintain the frontend for a US-based client, showcasing their services and enhancing their online presence."
+    },
+    {
       "title": "Sew-Cut: A Mobile Tailoring Management System with a Body Measurement Tool for Balala’s Dressmaking and Tailoring Shop",
       "image": "/assets/img/catalog.png",
       "year": 2023,

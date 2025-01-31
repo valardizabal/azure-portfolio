@@ -18,7 +18,7 @@ function App() {
           <ScrollShadow
             hideScrollBar
             size={100}
-            className="h-full space-y-2 scroll-smooth rounded-xl lg:w-5/12 lg:overflow-y-srroll lg:overflow-x-clip 2xl:w-4/12"
+            className="h-full space-y-2 scroll-smooth rounded-xl lg:w-5/12 lg:overflow-y-scroll lg:overflow-x-clip 2xl:w-4/12"
           >
             <Header/>
             <Profile/>
