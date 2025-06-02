@@ -1,5 +1,19 @@
 [
     {
+      "title": "Microsoft Certified: Azure Data Fundamentals",
+      "year": "2025",
+      "certificateImg": "/assets/img/adf.png",
+      "link": "https://learn.microsoft.com/api/credentials/share/en-us/LardizabalVenisceArvie09/4A39D159A68C90A5?sharingId=857D358003089FAE",
+      "credId": "4A39D159A68C90A5"
+    },
+    {
+      "title": "Microsoft Certified: Azure Developer Associate",
+      "year": "2025",
+      "certificateImg": "/assets/img/dev.png",
+      "link": "https://learn.microsoft.com/api/credentials/share/en-us/LardizabalVenisceArvie09/9D39886330567540?sharingId=857D358003089FAE",
+      "credId": "9D39886330567540"
+    },
+    {
       "title": "Microsoft Certified: Power BI Data Analyst Associate",
       "year": "2024",
       "certificateImg": "/assets/img/powerbi.png",

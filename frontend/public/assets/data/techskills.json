@@ -170,5 +170,9 @@
   {
     "name": "Jupyter",
     "logo": "jupyter"
+  },
+  {
+    "name": "C#",
+    "logo": "c#"
   }
 ]

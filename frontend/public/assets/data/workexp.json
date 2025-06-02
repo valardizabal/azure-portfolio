@@ -4,7 +4,7 @@
       "role": "Azure Cloud Engineer (Associate)",
       "years": "2023 - Present",
       "logo": "accenture",
-      "description": "I was assigned to an internal project where we migrate Accenture's Infrastructure in China from a global to a local system. I focus on automating Identity Lifecycle Workflows for employee onboarding and offboarding, and managed guest account access.",
+      "description": "I was assigned to an internal project where we migrate Accenture's Infrastructure in China from a global to a local system. I focus on automating Identity and Access Management Workflows such as app onboarding, employee offboarding, guest account access, and others.",
       "tasks": [
         "Automated identity workflows (B2B provisioning, application registration, and employee offboarding) using PowerShell, Microsoft Graph API, and Azure Automation Accounts, reducing manual tasks by 60%.",
         "Designed and deployed Azure Automation Accounts solutions for compliance monitoring (inactive guest audits, joiner reports, and discrepancy tracking), enhancing audit readiness and cutting manual review time by 70%", 
