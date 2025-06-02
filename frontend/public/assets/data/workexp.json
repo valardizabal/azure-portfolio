@@ -6,15 +6,15 @@
       "logo": "accenture",
       "description": "I was assigned to an internal project where we migrate Accenture's Infrastructure in China from a global to a local system. I focus on automating Identity Lifecycle Workflows for employee onboarding and offboarding, and managed guest account access.",
       "tasks": [
-        "Developed a PowerShell script to automate the generation and distribution of the new joiners report, previously a manual task. This automation eliminated manual effort by 100%, significantly improving efficiency, freeing up valuable IT resources for other critical security initiatives.",
-        "Developed two PowerShell scripts to automate the application of InfoSec controls and exceptions for separating employees in the China tenant. This automation reduced the time required to process employee separations by 50%.", 
-        "Developed and presented technical architecture diagrams and recommendations for optimizing infrastructure solutions for Accenture China.",
+        "Automated identity workflows (B2B provisioning, application registration, and employee offboarding) using PowerShell, Microsoft Graph API, and Azure Automation Accounts, reducing manual tasks by 60%.",
+        "Designed and deployed Azure Automation Accounts solutions for compliance monitoring (inactive guest audits, joiner reports, and discrepancy tracking), enhancing audit readiness and cutting manual review time by 70%", 
+        "Built and launched a decentralized identity onboarding platform using Azure Verified IDs and serverless architecture, improving authentication accuracy and reducing fraud risk scenarios.",
         "Implemented and maintained security best practices within the Azure environment, ensuring compliance with industry standards and regulations.",
-        "Presented two brownbag sessions to project team members and leads on Microsoft Sentinel and the SC-300 certification.",
-        "Successfully completed comprehensive CompTIA Security+ training with distinction, achieving first place in the bootcamp.",
-        "Earned 16+ certifications from diverse industries and platforms, including Microsoft, Google Chronicle, Qualys, and Fortinet."
+        "Led internal workshops on Microsoft Azure, Microsoft Sentinel, PowerShell, and Automation Accounts, upskilling both peers and senior stakeholders.",
+        "Designed and presented technical architecture diagrams for Accenture China, enhancing system performance and scalability.",
+        "Collaborated in Agile Scrum teams to ensure on-time delivery, streamline workflows, and adapt to evolving project needs."
       ],
-      "tags": ["Microsoft Azure", "Agile", "Azure Sentinel", "Microsoft Entra ID", "Azure Automation", "PowerShell", "Microsoft Privileged Access Management", "Azure Functions", "Figma"]
+      "tags": ["Microsoft Azure", "Agile", "Microsoft Entra ID", "Azure Automation Accounts", "PowerShell", "Microsoft Graph API", "Azure DevOps", "IAM", "Microsoft Privileged Access Management", "Microsoft Verified IDs", "Azure Functions", "React.js", "Azure Sentinel", "Figma"]
     },
     {
       "company": "Freelance",

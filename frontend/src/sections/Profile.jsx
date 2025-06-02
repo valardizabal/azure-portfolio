@@ -52,21 +52,10 @@ const Profile = () => {
           </div>
           <div className="space-y-2">
             <p className="text-m">
-              <span className="text-pink-500">A creative at heart ♡</span>, I am
-              an IT professional based in the Philippines with a strong
-              background in Cloud Engineering, Web Application Development, Data
-              Analytics, and UI/UX design. My work is guided by a{" "}
-              <b>
-                dedication to excellence, innovation, and the desire to deliver
-                solutions
-              </b>{" "}
-              that resonates with users and enhances their experience.
+              <span className="text-pink-500">A creative at heart ♡</span>, I’m a Microsoft Certified Azure Cloud Engineer with hands-on experience in application integration and <b>secure identity workflows using Azure Automation Accounts and PowerShell.</b>
             </p>
             <p className="text-m">
-              I am also deeply committed to continuous learning and
-              collaboration. Currently, I am eager to deepen my knowledge in
-              Machine Learning and Data Science to further expand my skill set
-              and contribute innovative solutions to the tech landscape.
+              I specialize in building scalable, secure, and efficient cloud solutions across the Microsoft ecosystem—including Azure Functions, Entra ID, Microsoft Graph API, and CI/CD pipelines in Azure DevOps. I thrive in collaborative environments and am committed to continuous learning. Currently, I’m deepening my expertise in DevOps practices with a focus on delivering innovative and impactful solutions.
             </p>
           </div>
         </div>

@@ -8,7 +8,7 @@
     "icon": "sentinel"
   },
   {
-    "name": "Azure Automation",
+    "name": "Azure Automation Accounts",
     "icon": "automation"
   },
   {
@@ -24,8 +24,20 @@
     "icon": "powershell"
   },
   {
+    "name": "Microsoft Graph API",
+    "icon": "graphapi"
+  },
+  {
+    "name": "Azure Key Vault",
+    "icon": "keyvault"
+  },
+  {
     "name": "Microsoft Power BI",
     "icon": "powerbi"
+  },
+  {
+    "name": "Microsoft Verified IDs",
+    "icon": "verified ids"
   },
   {
     "name": "Microsoft 365",
@@ -38,6 +50,22 @@
   {
     "name": "Azure DevOps",
     "icon": "adevops"
+  },
+  {
+    "name": "Azure Virtual Desktop",
+    "icon": "avd"
+  },
+  {
+    "name": "Terraform",
+    "icon": "terraform"
+  },
+  {
+    "name": "Docker",
+    "icon": "docker"
+  },
+  {
+    "name": "Kubernetes",
+    "icon": "k8s"
   },
   {
     "name": "Java",

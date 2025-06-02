@@ -1,5 +1,19 @@
 [
     {
+      "title": "ACN (Freeport Client): Verified IDs for Employee Onboarding",
+      "image": "/assets/img/verifiedids.png",
+      "year": 2025,
+      "tags": ["Microsoft Verified IDs", "Azure Functions", "C#", "React.js", "Microsoft Entra ID", "Azure DevOps"],
+      "description": "A decentralized identity verification system using Azure Verified IDs, enabling secure, privacy-respecting onboarding while reducing fraud and manual validation. Serverless workflows were implemented using Azure Functions and C# for dynamic credential issuance and validation, integrated with a React.js frontend. "
+    },
+    {
+      "title": "ACN China: Leaver's Program",
+      "image": "/assets/img/leaversdashboard.png",
+      "year": 2025,
+      "tags": ["Azure Automation Accounts", "Microsoft Power BI", "PowerShell", "Microsoft Graph API", "SharePoint", "Azure Storage Accounts", "Azure DevOps"],
+      "description": "3 automation scripts for InfoSec control application processes and access exceptions for employee offboarding in a production Azure tenant, using Azure Automation Accounts, PowerShell, and Graph API, reducing manual effort by 50%. Also, created a real-time Power BI dashboard to monitor script executions and detect incidents, reducing escalations and enabling proactive issue resolution."
+    },
+    {
       "title": "SkySentiment: SEA Airline Review Insights",
       "image": "/assets/img/skysentiment.png",
       "year": 2024,
