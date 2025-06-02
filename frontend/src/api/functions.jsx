@@ -46,7 +46,7 @@ export const functions = {
   },
 
   getResume: async () => {
-    const response = await fetch("/assets/data/LARDIZABAL_Venisce_Arvie-Resume.pdf");
+    const response = await fetch("/assets/data/LARDIZABAL_Venisce_Arvie-Resume-General.pdf");
     if (!response.ok) {
       throw new Error(`Failed to fetch resume. Status: ${response.status}`);
     }
